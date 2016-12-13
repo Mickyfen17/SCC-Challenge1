@@ -1,3 +1,7 @@
+/** {
+  border: 1px solid red;
+}*/
+
 body {
   display: flex;
   margin: 0;
@@ -22,6 +26,16 @@ body {
   width: 66.66%;
 }
 
+#resume-contact header:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+#resume-contact header h1 {
+  width: 100%;
+  margin: 25px 0 0 10px;
+  float: left;
+}
 #resume-contact .image {
   width: 100px;
   height: 100px;
@@ -53,7 +67,13 @@ body {
   background: #f86925;
 }
 
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 365px) {
+  #resume-contact header h1 {
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 550px) {
   #content-section #resume-contact {
     width: 100%;
   }
@@ -74,4 +94,6 @@ body {
   #resume-contact .image {
     display: block;
   }
+  #resume-contact header h1 {
+    width: 62%;
 }

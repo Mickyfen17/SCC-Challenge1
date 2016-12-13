@@ -45,3 +45,23 @@ body {
 .orange {
   background:orange;
 }
+
+@media screen and (max-width: 500px) {
+  #content-section div #resume-contact {
+    width: 100%;
+  }
+  #content-section div #profile {
+    width: 100%;
+  }
+  #content-section div {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  #photo-section {
+    display: none;
+  }
+  #content-section {
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+body {
+  display: flex;
+}
+
+#content-section {
+  width: 60%;
+  background: #f8f8f8;
+  height: 100vh;
+}
+
+#photo-section {
+  width: 40%;
+  background: aqua;
+  height: 100vh;
+}

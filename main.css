@@ -27,19 +27,19 @@ body {
 }
 
 .green {
-  background:green;
+  background: #35bc7a;
 }
 .yellow {
-  background:yellow;
+  background: #ff9e00;
 }
 .blue {
-  background:blue;
+  background: #1e8bc4;
 }
 .red {
-  background:red;
+  background: #f15a49;
 }
 .orange {
-  background:orange;
+  background: #f86925;
 }
 
 @media screen and (max-width: 500px) {

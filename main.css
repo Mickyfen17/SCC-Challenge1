@@ -93,12 +93,17 @@ button {
   color: #FFF;
   border: 2px solid #FFF;
   background: inherit;
-  width: 80px;
+  width: 100px;
   height: 40px;
   margin-right: 10px;
   cursor: pointer;
 }
 
+#content-section .btn-icons {
+  float: left;
+  width: 15px;
+  height: 15px;
+}
 
 .green {
   background: #35bc7a;

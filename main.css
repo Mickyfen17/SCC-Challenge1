@@ -18,11 +18,22 @@ body {
 }
 
 #photo-section {
+  display: flex;
+  align-items: center;
   background-image: url("images/bradley_cooper_fullsize.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 40%;
   height: 100vh;
+}
+
+.arrows {
+  width: 40px;
+  height: 40px;
+  margin: 0 0 0 20px;
+}
+.arrow-left {
+  margin: 0 20px 0 auto; 
 }
 
 #content-section #resume-contact {

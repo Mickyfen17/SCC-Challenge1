@@ -6,6 +6,8 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #FFF;
 }
 
 #content-section {
@@ -32,24 +34,51 @@ body {
   content: "";
   display: table;
 }
+
 #resume-contact header h1 {
   float: left;
   width: 230px;
-  margin: 25px 0 0 10px;
+  margin: 30px 0 20px 10px;
+  letter-spacing: 1px;
 }
+
 #resume-contact .image {
   display: none;
   background-image: url("images/bradley_cooper_thumb.jpg");
   float: right;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   margin: 10px 10px 0 0;
+}
+
+article {
+  margin-left: 10px;
+  clear: left;
+}
+
+p {
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+button {
+  color: #FFF;
+  border: 2px solid #FFF;
+  background: inherit;
+  width: 80px;
+  height: 40px;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
 #content-section div {
   width: 33.333%;
   height: 33.333%;
+}
+
+.icons {
+  fill:#FFF !important;
 }
 
 .green {
@@ -69,13 +98,20 @@ body {
 }
 
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   #resume-contact header h1 {
-    width: 170px;
+    width: 180px;
     font-size: 1.1em;
   }
+  #resume-contact .image {
+    width: 60px;
+    height: 60px;
+  }
+  p {
+    font-size: 0.7em;
+  }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 555px) {
   #content-section #resume-contact {
     width: 100%;
   }
@@ -86,7 +122,7 @@ body {
     width: 50%;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   #photo-section {
     display: none;
   }

@@ -2,6 +2,10 @@
   border: 1px solid red;
 }*/
 
+*:focus {
+  outline: none;
+}
+
 body {
   display: flex;
   margin: 0;
@@ -17,35 +21,28 @@ body {
   flex-wrap: wrap;
 }
 
-#photo-section {
-  display: flex;
-  align-items: center;
-  background-image: url("images/bradley_cooper_fullsize.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 40%;
-  height: 100vh;
-}
-
-.dots {
-  position: absolute;
-  top: 0;
-  right: 20px;
-  width: 50px;
-  height: 50px;
-}
-.arrows {
-  width: 40px;
-  height: 40px;
-  margin: 0 0 0 20px;
-}
-.arrow-left {
-  margin: 0 20px 0 auto;
-}
-
 #content-section #resume-contact {
   display: block;
   width: 66.66%;
+}
+
+#resume-contact header h1 {
+  float: left;
+  width: auto;
+  margin: 40px 0 20px 10px;
+  font-size: 3em;
+  letter-spacing: 1px;
+}
+
+#resume-contact .image {
+  display: none;
+  background-image: url("images/bradley_cooper_thumb.jpg");
+  background-size: cover;
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px 8px 0 0;
 }
 
 #resume-contact header:after {
@@ -73,28 +70,9 @@ h4 {
   text-transform: uppercase;
 }
 
-#resume-contact header h1 {
-  float: left;
-  width: auto;
-  margin: 40px 0 20px 10px;
-  font-size: 3em;
-  letter-spacing: 1px;
-}
-
 a {
   text-decoration: none;
   color: inherit;
-}
-
-#resume-contact .image {
-  display: none;
-  background-image: url("images/bradley_cooper_thumb.jpg");
-  background-size: cover;
-  float: right;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin: 10px 8px 0 0;
 }
 
 article {
@@ -137,6 +115,34 @@ button {
 }
 .orange {
   background: #f86925;
+}
+
+#photo-section {
+  display: flex;
+  align-items: center;
+  background-image: url("images/bradley_cooper_fullsize.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 100vh;
+}
+
+.dots {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.arrows {
+  width: 40px;
+  height: 40px;
+  margin: 0 0 0 20px;
+}
+
+.arrow-left {
+  margin: 0 20px 0 auto;
 }
 
 
